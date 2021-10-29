@@ -1,0 +1,12 @@
+ion-toolbar {
+  ion-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+  }
+}
+ion-searchbar {
+  --box-shadow: none;
+  border-bottom: solid 1px var(--ion-color-light);
+  border-radius: 10px;
+}

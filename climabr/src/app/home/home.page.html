@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Clima-BR
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size-sm="10" offset-sm="1" size-md="8" offset-md="2">
+        <ion-searchbar placeholder="Buscar cidade">
+        </ion-searchbar>
+          <ion-list lines="none">
+            <app-city-details name="Cidade" state="MG"></app-city-details>
+          </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
